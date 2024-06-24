@@ -3,6 +3,8 @@
 
 # # Like, comment, share & Don't forget to subscribe [Qwiklab_Explorers_ts](https://youtube.com/@titashshil?si=RgamNu1dc9jVIbJN) 👍😄🤝
 
+### Run the following Commands in CloudShell
+
 ```
 export PROJECT_ID=$(gcloud config get-value project)
 gsutil mb -p $PROJECT_ID -c regional -l us-east1 gs://$PROJECT_ID-bucket
